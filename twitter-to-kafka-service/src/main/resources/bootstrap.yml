@@ -9,3 +9,6 @@ spring:
       uri: http://localhost:8888
       username: spring_cloud_user
       password: ENC(Cp2UxMh1P82fTezeZvo8ahRQyyLbNfjcSSwWs0WjMW5xGB0ahJGy/wUa3yT1yPrm+0L4qIp8XDS+YsBVkNyNNQ==)
+jasypt:
+  encryptor:
+    password: Demo_Pwd!2020
