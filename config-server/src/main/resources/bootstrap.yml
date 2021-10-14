@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zeev512/spring-cloud-config-server-repository
+          default-label: master
+          username: zeev512
+          # Use the token instead of password
+          password: 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
+          # password: Aerospace512
+          clone-on-start: true
+    fail-fast: true
+  security:
+    user:
+      name: spring_cloud_user
+      password: ENC(E8JokdFQu9BdBRLwS+XyB+R66wdfiPk8h81+zmKnAPbhfVJaq5NG+L8hYtBpSNolj/2QfrbazFw6Y1qOpPehdg==)
