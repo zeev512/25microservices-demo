@@ -11,6 +11,7 @@
 		<module>kafka/kafka-producer</module>
 		<module>common-config</module>
 		<module>config-server</module>
+		<module>playground</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
